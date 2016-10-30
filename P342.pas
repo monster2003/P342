@@ -5,12 +5,12 @@
  *)
 program P342;
 var
-    sum,i,a:Integer ;
+    sum,i,a:LongInt;
 begin
     sum:=0;
     for i:=1 to 100 do
     begin
-        ReadLn(a);
+        Readln(a);
         sum:=sum+a;
     end;
     WriteLn(sum);
